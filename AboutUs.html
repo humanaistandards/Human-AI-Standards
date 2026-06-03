@@ -1,6 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
 
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      margin-left: 24px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      padding: 90px 8%;
+      max-width: 950px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 5rem);
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: #cbd5e1;
+      max-width: 760px;
+    }
+
+    .buttons {
+      margin-top: 36px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      margin-right: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #38bdf8;
+      color: #020617;
+    }
+
+    .secondary {
+      border: 1px solid #475569;
+      color: #e5e7eb;
+    }
+
+    section {
+      padding: 70px 8%;
+      border-top: 1px solid #1e293b;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+      margin-top: 32px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border: 1px solid #334155;
+      border-radius: 999px;
+      color: #93c5fd;
+      margin-bottom: 12px;
+    }
+
+    footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #93c5fd;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
+
+    @media (max-width: 700px) {
+      header {
+        display: block;
+      }
+
+      nav {
+        margin-top: 16px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 0 14px 8px 0;
+      }
+      .contact-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+}
+      .button {
+        margin-bottom: 12px;
+      }
+    }
+  </style>
+</head>
 <Head>
   <Title>About Us</Title>
 </Head>
