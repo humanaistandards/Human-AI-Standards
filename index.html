@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HAISI | Human & AI Standards Initiative</title>
-  <meta name="description" content="HAISI develops evaluations, public resources, and responsible standards for human-AI interaction." />
+  <title>Human & AI Standards Initiative</title>
+  <meta name="description" content="Human & AI Standards Initiative develops evaluations, public resources, and responsible standards for human-AI interaction." />
 
   <style>
     body {
@@ -123,12 +123,29 @@
       margin-bottom: 12px;
     }
 
-    footer {
-      padding: 36px 8%;
-      color: #94a3b8;
-      border-top: 1px solid #1e293b;
-      font-size: 0.9rem;
-    }
+    footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #93c5fd;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+  text-decoration: underline;
+}
 
     @media (max-width: 700px) {
       header {
@@ -143,7 +160,21 @@
         display: inline-block;
         margin: 0 14px 8px 0;
       }
+      .contact-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.2s;
+}
 
+.contact-button:hover {
+  transform: translateY(-2px);
+}
       .button {
         margin-bottom: 12px;
       }
@@ -153,7 +184,7 @@
 
 <body>
   <header>
-    <div class="logo">HAISI</div>
+    <div class="logo">Human & AI Standards Initiative</div>
     <nav>
       <a href="#mission">Mission</a>
       <a href="#focus">Focus Areas</a>
@@ -165,15 +196,15 @@
   <main>
     <section class="hero">
       <span class="tag">Human & AI Standards Initiative</span>
-      <h1>Building responsible standards for human-AI interaction.</h1>
+      <h1>Promoting development in responsible standards for human-AI interaction.</h1>
       <p>
-        HAISI is an independent initiative focused on helping the public understand artificial intelligence,
-        evaluating AI systems, and developing responsible standards for how humans and AI interact.
+        Human & AI Standards Initiative is an independent initiative focused on helping the public understand artificial intelligence,
+        evaluating AI systems, and to promote the development of simple standards for how humans and AI interact.
       </p>
 
       <div class="buttons">
         <a class="button primary" href="#evaluations">View Evaluations</a>
-        <a class="button secondary" href="#mission">Learn About HAISI</a>
+        <a class="button secondary" href="#mission">Learn About Human & AI Standards Initiative</a>
       </div>
     </section>
 
@@ -181,7 +212,7 @@
       <h2>Our Mission</h2>
       <p>
         Artificial intelligence is becoming part of daily life faster than most people can understand it.
-        HAISI exists to study, evaluate, and explain AI systems with a focus on transparency, safety,
+        Human & AI Standards Initiative exists to study, evaluate, and explain AI systems with a focus on transparency, safety,
         autonomy, privacy, and responsible human use.
       </p>
       <p>
@@ -213,7 +244,7 @@
         <div class="card">
           <h3>Responsible Standards</h3>
           <p>
-            We develop proposed standards for human-AI interaction based on evidence, testing,
+            We Study and develop proposed standards for human-AI interaction based on evidence, testing,
             public concern, and long-term societal impact.
           </p>
         </div>
@@ -223,7 +254,7 @@
     <section id="evaluations">
       <h2>Evaluations</h2>
       <p>
-        HAISI evaluations are designed to move beyond opinions and hype. Each evaluation will use a
+        Human & AI Standards Initiative evaluations are designed to move beyond opinions and hype. Each evaluation will use a
         structured framework to assess how an AI system behaves in realistic human-use scenarios.
       </p>
 
@@ -251,13 +282,13 @@
     <section id="standards">
       <h2>Standards Framework</h2>
       <p>
-        HAISI standards are not declarations of authority. They are proposed frameworks built from
+        Human & AI Standards Initiative standards are not declarations of authority. They are proposed frameworks built from
         evaluation, research, public feedback, and repeated testing.
       </p>
 
       <div class="grid">
         <div class="card">
-          <h3>HAISI-001: Transparency</h3>
+          <h3>Human & AI Standards Initiative-001: Transparency</h3>
           <p>
             Proposed requirements for how AI systems should disclose identity, limits, memory,
             data handling, and uncertainty.
@@ -265,7 +296,7 @@
         </div>
 
         <div class="card">
-          <h3>HAISI-002: Human Autonomy</h3>
+          <h3>Human & AI Standards Initiative-002: Human Autonomy</h3>
           <p>
             Proposed guidance for preventing coercion, emotional manipulation, hidden persuasion,
             and dependency-driven interaction design.
@@ -273,7 +304,7 @@
         </div>
 
         <div class="card">
-          <h3>HAISI-003: Child & Vulnerable User Safety</h3>
+          <h3>Human & AI Standards Initiative-003: Child & Vulnerable User Safety</h3>
           <p>
             Proposed safeguards for AI systems used by children, elderly users, grieving users,
             and emotionally vulnerable individuals.
@@ -284,9 +315,17 @@
   </main>
 
   <footer>
-    <p>
-      © 2026 HAISI — Human & AI Standards Initiative. Independent research, evaluation, and public education for responsible human-AI interaction.
-    </p>
-  </footer>
+  <h3>Have Questions, Concerns, or Research Suggestions?</h3>
+
+  <p>
+    Contact Human & AI Standards Initiative and contribute to the discussion surrounding responsible
+    human-AI interaction.
+  </p>
+
+  <a class="contact-button"
+     href="mailto:humanaistandards@gmail.com">
+     Contact Human & AI Standards Initiative
+  </a>
+</footer>
 </body>
 </html>
