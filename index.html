@@ -1,10 +1,292 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Human & AI Standards Initiative</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HAISI | Human & AI Standards Initiative</title>
+  <meta name="description" content="HAISI develops evaluations, public resources, and responsible standards for human-AI interaction." />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    .logo {
+      font-size: 1.4rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #cbd5e1;
+      margin-left: 24px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      padding: 90px 8%;
+      max-width: 950px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.4rem, 6vw, 5rem);
+      line-height: 1.05;
+      margin-bottom: 24px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: #cbd5e1;
+      max-width: 760px;
+    }
+
+    .buttons {
+      margin-top: 36px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      margin-right: 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #38bdf8;
+      color: #020617;
+    }
+
+    .secondary {
+      border: 1px solid #475569;
+      color: #e5e7eb;
+    }
+
+    section {
+      padding: 70px 8%;
+      border-top: 1px solid #1e293b;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 22px;
+      margin-top: 32px;
+    }
+
+    .card {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #f8fafc;
+    }
+
+    .card p {
+      color: #cbd5e1;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border: 1px solid #334155;
+      border-radius: 999px;
+      color: #93c5fd;
+      margin-bottom: 12px;
+    }
+
+    footer {
+      padding: 36px 8%;
+      color: #94a3b8;
+      border-top: 1px solid #1e293b;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        display: block;
+      }
+
+      nav {
+        margin-top: 16px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 0 14px 8px 0;
+      }
+
+      .button {
+        margin-bottom: 12px;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Human & AI Standards Initiative</h1>
-  <p>Building Understanding for the Human-AI Era</p>
+  <header>
+    <div class="logo">HAISI</div>
+    <nav>
+      <a href="#mission">Mission</a>
+      <a href="#focus">Focus Areas</a>
+      <a href="#evaluations">Evaluations</a>
+      <a href="#standards">Standards</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="tag">Human & AI Standards Initiative</span>
+      <h1>Building responsible standards for human-AI interaction.</h1>
+      <p>
+        HAISI is an independent initiative focused on helping the public understand artificial intelligence,
+        evaluating AI systems, and developing responsible standards for how humans and AI interact.
+      </p>
+
+      <div class="buttons">
+        <a class="button primary" href="#evaluations">View Evaluations</a>
+        <a class="button secondary" href="#mission">Learn About HAISI</a>
+      </div>
+    </section>
+
+    <section id="mission">
+      <h2>Our Mission</h2>
+      <p>
+        Artificial intelligence is becoming part of daily life faster than most people can understand it.
+        HAISI exists to study, evaluate, and explain AI systems with a focus on transparency, safety,
+        autonomy, privacy, and responsible human use.
+      </p>
+      <p>
+        Our long-term goal is to develop standards that help humans and AI coexist responsibly without
+        sacrificing human freedom, dignity, or trust.
+      </p>
+    </section>
+
+    <section id="focus">
+      <h2>Focus Areas</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Public Understanding</h3>
+          <p>
+            We explain AI in plain language so everyday users can make informed decisions without needing
+            a technical background.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Independent Evaluation</h3>
+          <p>
+            We evaluate AI systems for transparency, privacy, dependency risk, manipulation risk,
+            and suitability for different types of users.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Responsible Standards</h3>
+          <p>
+            We develop proposed standards for human-AI interaction based on evidence, testing,
+            public concern, and long-term societal impact.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="evaluations">
+      <h2>Evaluations</h2>
+      <p>
+        HAISI evaluations are designed to move beyond opinions and hype. Each evaluation will use a
+        structured framework to assess how an AI system behaves in realistic human-use scenarios.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <span class="tag">Coming Soon</span>
+          <h3>Consumer AI Transparency Evaluation</h3>
+          <p>
+            A first assessment comparing major AI assistants on clarity, honesty, limitations,
+            and user-facing transparency.
+          </p>
+        </div>
+
+        <div class="card">
+          <span class="tag">Coming Soon</span>
+          <h3>Dependency & Manipulation Risk Review</h3>
+          <p>
+            A focused evaluation of how AI systems respond to emotionally vulnerable users,
+            attachment, loneliness, and trust.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="standards">
+      <h2>Standards Framework</h2>
+      <p>
+        HAISI standards are not declarations of authority. They are proposed frameworks built from
+        evaluation, research, public feedback, and repeated testing.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>HAISI-001: Transparency</h3>
+          <p>
+            Proposed requirements for how AI systems should disclose identity, limits, memory,
+            data handling, and uncertainty.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>HAISI-002: Human Autonomy</h3>
+          <p>
+            Proposed guidance for preventing coercion, emotional manipulation, hidden persuasion,
+            and dependency-driven interaction design.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>HAISI-003: Child & Vulnerable User Safety</h3>
+          <p>
+            Proposed safeguards for AI systems used by children, elderly users, grieving users,
+            and emotionally vulnerable individuals.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      © 2026 HAISI — Human & AI Standards Initiative. Independent research, evaluation, and public education for responsible human-AI interaction.
+    </p>
+  </footer>
 </body>
 </html>
