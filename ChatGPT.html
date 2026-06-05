@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <Title>Learn about different AI and AI tools.</Title>
     <style>
+      
       body {
         margin: 0;
         font-family: Arial, sans-serif;
@@ -20,18 +21,36 @@
         align-items: center;
         border-bottom: 1px solid #1e293b;
       }
-      .page-hero {
+
+      .logo {
+        font-size: 1.4rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+
+        nav a {
+      color: #cbd5e1;
+      margin-left: 24px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      }
+
+      nav a:hover {
+      color: white;
+      }
+      
+      .hero {
         padding: 80px 8% 50px;
         max-width: 1200px;
       }
       
-      .page-hero h1 {
+      .hero h1 {
         font-size: clamp(2.2rem, 4vw, 4.2rem);
         line-height: 1.08;
         margin-bottom: 18px;
       }
       
-      .page-hero p {
+      .hero p {
         max-width: 850px;
         color: #cbd5e1;
         font-size: 1.15rem;
@@ -127,7 +146,59 @@
       .back-link:hover {
         color: #e5e7eb;
       }
+
+      .tag {
+      display: inline-block;
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border: 1px solid #334155;
+      border-radius: 999px;
+      color: #93c5fd;
+      margin-bottom: 12px;
+    }
+
+     footer {
+        margin-top: 70px;
+        padding: 40px 8%;
+        border-top: 1px solid rgba(148, 163, 184, 0.25);
+        text-align: center;
+        color: rgba(203, 213, 225, 0.75);
+        font-size: 0.95rem;
+      }
+      
+      footer h3 {
+        margin-bottom: 8px;
+        color: rgba(248, 250, 252, 0.85);
+      }
+      
+      footer p {
+        margin: 8px auto;
+        max-width: 650px;
+      }
+      
+      footer a {
+        color: rgba(147, 197, 253, 0.8);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(147, 197, 253, 0.35);
+      }
+      
+      footer a:hover {
+        color: #38bdf8;
+        border-bottom-color: #38bdf8;
+      }
+      
     </style>
+  </head>
+
+  <body>
+  <header>
+    <div class="logo">Human & AI Standards Initiative</div>
+    <nav>
+      <a href="AboutUs.html">About Us</a>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+  
     <section class="hero">
   <span class="tag">AI Profile</span>
 
@@ -260,4 +331,20 @@ Overall Rating:
 </p>
 
 </section>
-  </head>
+  
+  <footer>
+  <h3>Have Questions, Concerns, or Research Suggestions?</h3>
+
+  <p>
+    Contact Us and contribute.
+  </p>
+
+<div class="buttons">
+        <a class="tag" href="mailto:humanaistandards@gmail.com"> humanaistandards@gmail.com 
+  </a>
+  <p>
+  © 2026 Human & AI Standards Initiative
+  </p>
+</footer>
+</body>
+</html>
